@@ -1,73 +1,62 @@
-# Project: 0x10 Python - Network #0
+# 🐍 0x10. Python - Network #0 🌐
 
-## Description
+### Bash 📜
+### Python 🐍
+### Scripting 💻
+### Back-end 🛠️
+### API 📡
 
-This project consists of several tasks aimed at familiarizing you with using cURL and understanding various aspects of HTTP and network communication. You'll be writing Bash scripts and Python scripts to perform different HTTP requests, handle responses, and interact with web servers.
+#### Weight: 1
+#### Project will start Mar 27, 2024 6:00 AM, must end by Mar 28, 2024 6:00 AM
+#### Checker was released at Mar 27, 2024 12:00 PM
+#### An auto review will be launched at the deadline
 
-## Learning Objectives
+## Resources 📚
+Read or watch:
 
-Upon completion of this project, I should be able to:
+- HTTP (HyperText Transfer Protocol) (except: “TRACE” Request Method, “CONNECT” Request Method, Language Negotiation and “Options MultiView” and Character Set Negotiation)
+- HTTP Cookies
 
-- Understand the fundamentals of HTTP (HyperText Transfer Protocol).
-- Execute HTTP requests using cURL.
-- Handle HTTP responses in Bash and Python scripts.
-- Work with URL components such as scheme, domain, port, query string, etc.
-- Understand HTTP request methods and response status codes.
-- Utilize HTTP headers including custom headers and cookies.
+## Learning Objectives 🎓
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-## Quiz Questions
+**General**
+- What a URL is
+- What HTTP is
+- How to read a URL
+- The scheme for an HTTP URL
+- What a domain name is
+- What a sub-domain is
+- How to define a port number in a URL
+- What a query string is
+- What an HTTP request is
+- What an HTTP response is
+- What HTTP headers are
+- What the HTTP message body is
+- What an HTTP request method is
+- What an HTTP response status code is
+- What an HTTP Cookie is
+- How to make a request with cURL
+- What happens when you type google.com in your browser (Application level)
 
-To reinforce my understanding of the concepts covered in this project, there's a quiz included. The quiz covers various topics related to HTTP, URLs, cURL, request methods, response status codes, headers, and cookies.
+## Requirements 📋
+**General**
+- Allowed editors: vi, vim, emacs
+- A README.md file, at the root of the folder of the project, is mandatory
+- All your scripts will be tested on Ubuntu 20.04 LTS
+- All your Bash scripts should be exactly 3 lines long (wc -l file should print 3)
+- All your files should end with a new line
+- All your files must be executable
+- The first line of all your bash files should be exactly #!/bin/bash
+- The second line of all your Bash scripts should be a comment explaining what is the script doing
+- All curl commands must have the option -s (silent mode)
+- All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+- The first line of all your Python files should be exactly #!/usr/bin/python3
+- Your code should use the pycodestyle (version 2.8.*)
+- All your modules should be documented: python3 -c 'print(__import__("my_module").__doc__)'
+- All your classes should be documented: python3 -c 'print(__import__("my_module").MyClass.__doc__)'
+- All your functions (inside and outside a class) should be documented: python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
+- A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 
-## Tasks
-
-1. **0-body_size.sh**: Write a Bash script that retrieves the size of the body of a response from a given URL using cURL.
-2. **1-body.sh**: Write a Bash script that retrieves and displays the body of the response from a given URL using cURL, displaying only the body for a response with a status code of 200.
-3. **2-delete.sh**: Write a Bash script that sends a DELETE request to a given URL using cURL and displays the body of the response.
-4. **3-methods.sh**: Write a Bash script that retrieves and displays all HTTP methods the server will accept for a given URL using cURL.
-5. **4-header.sh**: Write a Bash script that retrieves the body of a response from a given URL using cURL, including a custom header `X-School-User-Id` with a value of `98`.
-6. **5-post_params.sh**: Write a Bash script that sends a POST request to a given URL with specified parameters using cURL, and displays the body of the response.
-7. **6-peak.py, 6-peak.txt**: Write a Python function `find_peak` that finds a peak in an unsorted list of integers with optimized complexity. Also, provide a text file (`6-peak.txt`) containing the complexity of the algorithm.
-8. **100-status_code.sh**: Write a Bash script that sends a request to a given URL using cURL and displays only the status code of the response.
-9. **101-post_json.sh**: Write a Bash script that sends a JSON POST request to a given URL with the contents of a specified file in the body, using cURL.
-10. **102-catch_me.sh**: Write a Bash script that makes a request to a specific URL causing the server to respond with a message containing "You got me!" in the body of the response, using cURL.
-
-## Repository
-
-All your scripts and files should be stored in the [alx-higher_level_programming](https://github.com/waltertaya/alx-higher_level_programming) repository, specifically in the `0x10-python-network_0` directory.
-
-## Usage
-
-All Bash scripts should be executable and run on Ubuntu 20.04 LTS. Python scripts should be run using Python 3.8.5.
-
-For example:
-
-```Bash
-./0-body_size.sh 0.0.0.0:5000
-./1-body.sh 0.0.0.0:5000/route_1
-./2-delete.sh 0.0.0.0:5000/route_3
-./3-methods.sh 0.0.0.0:5000/route_4
-./4-header.sh 0.0.0.0:5000/route_5
-./5-post_params.sh 0.0.0.0:5000/route_6
-python3 6-main.py
-./100-status_code.sh 0.0.0.0:5000
-./101-post_json.sh 0.0.0.0:5000/route_json my_json_0
-./102-catch_me.sh
-```
-
-## Testing
-
-I made sure that I test my scripts thoroughly, especially against the provided sandbox environment. The web server in the sandbox is running on port 5000.
-
-## Restrictions
-
-- All Bash scripts should be exactly 3 lines long.
-- Use `curl` for making HTTP requests in Bash scripts.
-- Avoid using `echo`, `cat`, etc., for displaying outputs.
-- Ensure all files have the necessary permissions and end with a newline.
-
-Remember to document the Python functions, modules, and classes according to the specified requirements.
-
-## Deadline
-
-This project must be completed no later than Mar 1, 2024, 6:00 AM.
+## Quiz Questions 📝
+Great! You've completed the quiz successfully! Keep going!
